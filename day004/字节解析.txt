@@ -1,0 +1,30 @@
+F0:26: C7   84 91 AA000000 11000000
+
+前缀
+  F0 ：lock
+  26 ：ES
+  C7 ： mov Ev,Iz  E:到MODR/M左边找 32位，I:立即数 32位
+  84 ： [--][--]+32disp
+  91 :  [edx*4][ecx]
+  
+  lock mov dword ptr ES:[edx*4+ecx+AAh],11h
+  
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+		
+  
